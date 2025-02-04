@@ -1,11 +1,10 @@
 # KHFC Site
 
-KHFC Site is a Django-based web application designed for managing and showcasing your take-out/catering business. It features a robust backend with a structured database and a dynamic front-end for user interaction.
+KHFC Site is a Django-based web application designed for managing and showcasing my take-out/catering business. It features a dynamic front-end for user interaction with plans for a back-end in the near future.
 
 ## Features
 
-- Django-based backend with SQLite database
-- Custom admin panel for content management
+- Django-based backend with SQLite database (to be used later)
 - Dynamic routing and templating
 - Local development and deployment support
 
@@ -50,18 +49,6 @@ Ensure you have the following installed:
    python manage.py runserver
    ```
    The website will be available at `http://127.0.0.1:8000/`.
-
-## Deployment
-
-For production deployment, consider using:
-
-- Gunicorn + Nginx (for Linux-based servers)
-- AWS/GCP/Azure or any cloud hosting provider
-- Docker for containerized deployment
-
-## Contributing
-
-Feel free to submit pull requests or open issues for improvements and feature requests.
 
 ## License
 
